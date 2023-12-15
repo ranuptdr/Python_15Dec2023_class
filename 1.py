@@ -1,6 +1,6 @@
 # class Defination
 class A(): # ClassName always be in PascalCase Pattern
-    #1. property
+    #1. property  = Variable
     a = ''
     b = ''
     #2. construsctor
@@ -12,7 +12,7 @@ class A(): # ClassName always be in PascalCase Pattern
         print('Hello')
 
     #3. Method/Function (functionName always be in camelCase Pattern)
-    def addTwoNumber(self):  # always put first argument as self
+    def addTwoNumber(self):  # always put first argument as self, self is internal object
         print(f"the sum of {self.a} and {self.b} is {self.a + self.b}")
     pass
 ''' Create instance of A class "or"
@@ -20,7 +20,7 @@ class A(): # ClassName always be in PascalCase Pattern
 ''' 
 # tripal string is a multiline comment
 # classobject = className()
-co = A(10,40) # actualargument1 = 10, actualargument2 = 40
+co = A(10,40) # actualargument1 = 10, actualargument2 = 40,  co is a external clas object
 # classobject.method
 co.addTwoNumber()
 # note :- The Parameters Passed while creating the object of a class will be received in the constructor of the class
